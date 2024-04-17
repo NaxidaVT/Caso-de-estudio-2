@@ -8,9 +8,9 @@
         <version>3.2.3</version>
     </parent>
     <groupId>tienda_JimenaFloresCarmona</groupId>
-    <artifactId>caso_estudio</artifactId>
+    <artifactId>Caso_Estudio_Kevin_Chavarria_Vargas</artifactId>
     <version>1</version>
-    <name>Caso_Estudio</name>
+    <name>Caso_Estudio_Kevin_Chavarria_Vargas</name>
     <description>Proyecto Tienda, Miercoles Noche 2024 IIIC</description>
     <properties>
         <java.version>19</java.version>
