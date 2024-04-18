@@ -98,24 +98,20 @@
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
     </dependencies>
-    
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.tienda.TiendaApplication</mainClass>
+                    <excludes>
+                        <exclude>
+                            <groupId>com.hotel.CasoKevinChavarriaVargasApplication</groupId>
+                            <artifactId>lombok</artifactId>
+                        </exclude>
+                    </excludes>
                 </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
-
 </project>
