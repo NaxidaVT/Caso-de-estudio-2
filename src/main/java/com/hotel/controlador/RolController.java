@@ -1,6 +1,5 @@
 package com.hotel.controlador;
 
-import com.hotel.modelo.Rol;
 import com.hotel.repositorio.RolRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -1,6 +1,5 @@
 package com.hotel.controlador;
 
-import com.hotel.modelo.Hotel;
 import com.hotel.repositorio.HotelRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

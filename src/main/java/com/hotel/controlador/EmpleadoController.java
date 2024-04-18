@@ -1,6 +1,5 @@
 package com.hotel.controlador;
 
-import com.hotel.modelo.Empleado;
 import com.hotel.repositorio.EmpleadoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
