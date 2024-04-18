@@ -106,7 +106,7 @@
                 <configuration>
                     <excludes>
                         <exclude>
-                            <groupId>com.hotel.CasoKevinChavarriaVargasApplication</groupId>
+                            <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
